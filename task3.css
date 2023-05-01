@@ -1,0 +1,46 @@
+main {
+    height: 400px;
+    width: 1200px;
+    background-color: gray;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#div1 {
+    height: 400px;
+    background-color: rgb(210, 210, 210);
+    width: 600px;
+    transition: all 1s;
+}
+
+p {
+    text-align: center;
+    padding-top: 180px;
+}
+
+main:hover #div1 {
+    background-color: rgb(104, 104, 104);
+}
+
+#div2 {
+    margin-left: 600px;
+    margin-top: -400px;
+    width: 600px;
+    height: 400px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#div2 img {
+    width: 100%;
+    height: auto;
+    transition: all 1s ease;
+}
+
+main:hover #div2 img {
+    transform: scale(1.5);
+    opacity:0.5;
+}
